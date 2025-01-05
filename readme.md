@@ -40,12 +40,13 @@ We welcome contributions from the community! To contribute:
 2. Create a new branch for your feature:
    ```bash
    git checkout -b feature-name
-4. Make your changes and commit:
+3. Make your changes and commit:
    ```bash
    git commit -m "Add a detailed commit message"
-5. Push the branch:
+4. Push the branch:
    ```bash
    git push origin feature-name
+5. Open a Pull Request
    
 
 
