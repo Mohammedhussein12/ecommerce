@@ -28,7 +28,8 @@ Watch the demo video to see the application in action:
 ## 📷 Screenshots
 
 ### Homepage
-![Homepage Screenshot](screenshots/homepage.png)
+
+![Homepage Screenshot](D:\Route\Design\Ecommerce\Group 23.png)
 
 ### Product Page
 ![Product Page Screenshot](screenshots/product-page.png)
