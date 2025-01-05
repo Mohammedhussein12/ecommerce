@@ -26,27 +26,14 @@ Watch the demo video to see the application in action:
 
 ## 📷 Screenshots
 
-### Splash
-![Splash Screenshot](assets/screenshots/splash.png)
+| Splash                       | Login                        | Sign Up                    |
+|------------------------------|------------------------------|----------------------------|
+| ![Splash Screenshot](assets/screenshots/splash.png) | ![Login Screenshot](assets/screenshots/login.png) | ![Sign Up Screenshot](assets/screenshots/register.png) |
 
-### Login
-![Login Screenshot](assets/screenshots/login.png)
+| Homepage                    | Product Page                | Product Details           |
+|-----------------------------|-----------------------------|---------------------------|
+| ![Homepage Screenshot](assets/screenshots/home.png) | ![Product Page Screenshot](assets/screenshots/product-list.png) | ![Product Details Screenshot](assets/screenshots/product_details.png) |
 
-### Sign Up
-![Sign Up Screenshot](assets/screenshots/register.png)
-
-### Homepage
-
-![Homepage Screenshot](assets/screenshots/home.png)
-
-### Product Page
-![Product Page Screenshot](assets/screenshots/product-list.png)
-
-### product Details
-![Product Details Screenshot](assets/screenshots/product_details.png)
-
-### wishlist
-![Wishlist Screenshot](assets/screenshots/wishlist.png)
-
-### Cart
-![Cart Screenshot](assets/screenshots/cart.png)
+| Wishlist                   | Cart                        |                           |
+|----------------------------|-----------------------------|---------------------------|
+| ![Wishlist Screenshot](assets/screenshots/wishlist.png) | ![Cart Screenshot](assets/screenshots/cart.png) |                           |
