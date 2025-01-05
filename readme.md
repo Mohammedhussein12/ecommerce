@@ -1,5 +1,14 @@
 # E-Commerce Project
 
+## 📑 Table of Contents
+
+1. [🚀 Introduction](#-introduction)
+2. [🎥 Demo Video](#-demo-video)
+3. [🛠 Features](#-features)
+4. [📷 Screenshots](#-screenshots)
+5. [👥 Contributors](#-contributors)
+
+
 ## 🚀 Introduction
 
 This project is a feature-rich e-commerce platform designed for seamless online shopping experiences. It includes user-friendly navigation, advanced product filtering, secure checkout, and a modern interface.
@@ -37,3 +46,8 @@ Watch the demo video to see the application in action:
 | Wishlist                   | Cart                        |                           |
 |----------------------------|-----------------------------|---------------------------|
 | ![Wishlist Screenshot](assets/screenshots/wishlist.png) | ![Cart Screenshot](assets/screenshots/cart.png) |                           |
+
+## 👥 Contributors
+
+- **Your Name** ([Mohammedhussein12](https://github.com/Mohammedhussein12/ecommerce.git))
+
