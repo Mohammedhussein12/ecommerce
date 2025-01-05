@@ -24,12 +24,93 @@ Watch the demo video to see the application in action:
 
 ## 🛠 Features
 
-- **Responsive Design**: Works seamlessly across devices.
-- **Product Catalog**: Browse through a wide range of products with detailed descriptions.
-- **Advanced Filtering**: Filter products by categories, price range, and more.
-- **Shopping Cart**: Add, update, and remove products from the cart.
-- **User Authentication**: Sign up, login, and manage user profiles.
-- **Order Management**: Track order history and statuses.
+Authentication & User Management
+
+User registration with email, password, and personal information
+Secure login system with password protection
+Profile management allowing users to edit personal details
+Password recovery functionality
+
+Shopping Experience
+
+Browse products by categories including:
+
+Women's Fashion
+Men's Fashion
+Electronics & Laptops
+Baby Toys
+Beauty Products
+Headphones
+Skincare
+Gaming
+Home Appliances
+
+
+
+Product Features
+
+Detailed product pages with:
+
+High-quality product images
+Multiple color options
+Size selection (where applicable)
+Product descriptions
+Price information
+User ratings and reviews
+Stock availability
+
+
+
+Shopping Cart
+
+Add/remove items
+Quantity adjustment
+Price calculation
+Size and color selection
+Quick checkout process
+
+Special Offers
+
+Promotional banners (e.g., 25% off on Headphones & AirPods)
+Sale price indicators
+Original price display alongside discounted prices
+
+User Interface
+
+Clean and modern design with the Route brand identity
+Bottom navigation bar for easy access to:
+
+Home
+Categories
+Favorites
+User Profile
+
+
+Search functionality
+Wishlist/Favorites system
+Shopping cart icon with item counter
+Responsive layout supporting multiple screen sizes
+
+Product Management
+
+Product filtering options
+Category-based browsing
+Price display in EGP (Egyptian Pounds)
+Review system with ratings (shown as 4.5-4.8 stars)
+
+Security Features
+
+Secure user authentication
+Protected user data
+Encrypted password storage
+
+Technical Specifications
+
+Built with Flutter framework
+Follows Material Design principles
+Supports both Android and iOS platforms
+Implements responsive design patterns
+Uses modern state management solutions
 
 ---
 
