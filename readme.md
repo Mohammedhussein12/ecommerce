@@ -24,16 +24,50 @@ Watch the demo video to see the application in action:
 
 ## 🛠 Features
 
-Authentication & User Management
+🛍️ Shopping Experience
 
-User registration with email, password, and personal information
-Secure login system with password protection
-Profile management allowing users to edit personal details
-Password recovery functionality
+Browse extensive product catalog with categories
+View product details including images, prices, and reviews
+Choose from multiple color and size options
+Quick "Add to Cart" functionality
+Save favorite items to wishlist
+Real-time price updates and discounts
+Product ratings and reviews system (4.5+ average ratings)
 
-Shopping Experience
+🔍 Search & Navigation
 
-Browse products by categories including:
+Smart search functionality
+Category-based browsing
+Bottom navigation for quick access:
+
+Home
+Categories
+Wishlist
+Profile
+
+
+
+🛒 Shopping Cart
+
+Easy add/remove items
+Quantity adjustment
+Size and color selection
+Total price calculation
+
+👤 User Account
+
+Quick signup and login
+Profile management
+Address management
+
+💰 Deals & Offers
+
+Special promotions section
+Up to 25% off on selected categories
+Seasonal discounts
+Featured products section
+
+📱 Categories
 
 Women's Fashion
 Men's Fashion
@@ -45,72 +79,16 @@ Skincare
 Gaming
 Home Appliances
 
+💫 UI/UX Features
 
+Clean, modern interface
+Easy navigation
+Responsive design
+Wishlist functionality
+Shopping cart with counter
+Product image galleries
+Category icons and visuals
 
-Product Features
-
-Detailed product pages with:
-
-High-quality product images
-Multiple color options
-Size selection (where applicable)
-Product descriptions
-Price information
-User ratings and reviews
-Stock availability
-
-
-
-Shopping Cart
-
-Add/remove items
-Quantity adjustment
-Price calculation
-Size and color selection
-Quick checkout process
-
-Special Offers
-
-Promotional banners (e.g., 25% off on Headphones & AirPods)
-Sale price indicators
-Original price display alongside discounted prices
-
-User Interface
-
-Clean and modern design with the Route brand identity
-Bottom navigation bar for easy access to:
-
-Home
-Categories
-Favorites
-User Profile
-
-
-Search functionality
-Wishlist/Favorites system
-Shopping cart icon with item counter
-Responsive layout supporting multiple screen sizes
-
-Product Management
-
-Product filtering options
-Category-based browsing
-Price display in EGP (Egyptian Pounds)
-Review system with ratings (shown as 4.5-4.8 stars)
-
-Security Features
-
-Secure user authentication
-Protected user data
-Encrypted password storage
-
-Technical Specifications
-
-Built with Flutter framework
-Follows Material Design principles
-Supports both Android and iOS platforms
-Implements responsive design patterns
-Uses modern state management solutions
 
 ---
 
