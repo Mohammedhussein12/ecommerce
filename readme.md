@@ -19,7 +19,6 @@ Watch the demo video to see the application in action:
 - **Product Catalog**: Browse through a wide range of products with detailed descriptions.
 - **Advanced Filtering**: Filter products by categories, price range, and more.
 - **Shopping Cart**: Add, update, and remove products from the cart.
-- **Secure Checkout**: Integrated payment gateway for secure transactions.
 - **User Authentication**: Sign up, login, and manage user profiles.
 - **Order Management**: Track order history and statuses.
 
@@ -27,18 +26,27 @@ Watch the demo video to see the application in action:
 
 ## 📷 Screenshots
 
+### Splash
+![Splash Screenshot](assets/screenshots/splash.png)
+
+### Login
+![Login Screenshot](assets/screenshots/login.png)
+
+### Sign Up
+![Sign Up Screenshot](assets/screenshots/register.png)
+
 ### Homepage
 
-![Homepage Screenshot](D:\Route\Design\Ecommerce\Group 23.png)
+![Homepage Screenshot](assets/screenshots/home.png)
 
 ### Product Page
-![Product Page Screenshot](screenshots/product-page.png)
+![Product Page Screenshot](assets/screenshots/product-list.png)
 
-### Checkout Process
-![Checkout Screenshot](screenshots/checkout.png)
+### product Details
+![Product Details Screenshot](assets/screenshots/product_details.png)
 
-### Steps
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Mohammedhussein12/ecommerce.git
-   cd e-commerce-project
+### wishlist
+![Wishlist Screenshot](assets/screenshots/wishlist.png)
+
+### Cart
+![Cart Screenshot](assets/screenshots/cart.png)
