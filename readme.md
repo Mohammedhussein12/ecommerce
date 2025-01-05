@@ -15,8 +15,9 @@ This project is a feature-rich e-commerce platform designed for seamless online 
 To run this project locally, follow these steps:
 
 ### Prerequisites
-- Flutter SDK installed ([Get Flutter](https://flutter.dev/docs/get-started/install))
-- A code editor (e.g., VSCode or Android Studio)
+- **Flutter SDK**: Ensure you have the Flutter SDK installed. [Download Flutter](https://flutter.dev/docs/get-started/install)
+- **IDE**: Use an IDE like Android Studio, VS Code, or IntelliJ IDEA with Flutter and Dart plugins installed.
+- **Device/Emulator**: A physical device or emulator to run the app.
 
 ### Steps
 1. Clone the repository:
