@@ -10,6 +10,38 @@
 ## 🚀 Introduction
 This project is a feature-rich e-commerce platform designed for seamless online shopping experiences. It includes user-friendly navigation, advanced product filtering, secure checkout, and a modern interface.
 
+## 🖥️ Technical Stack
+This project utilizes the following technologies and packages to deliver a seamless e-commerce experience:
+
+Core Technologies
+Flutter: The primary framework for building the app with a fast, beautiful user interface.
+Dart: The programming language used with Flutter.
+UI & UX
+flutter_screenutil: Ensures the app is responsive across different screen sizes and resolutions.
+flutter_svg: Allows easy rendering of SVG images for scalable vector graphics.
+smooth_page_indicator: Adds smooth page indicators, providing a polished navigation experience in carousels or onboarding screens.
+flutter_native_splash: Customizes the app’s splash screen for a smoother launch experience.
+State Management
+flutter_bloc: A powerful state management library using the BLoC pattern to manage the app's state efficiently.
+get_it: Service locator for managing dependencies across the app.
+injectable: Helps automate dependency injection for easier management of services and models.
+Networking & API
+dio: A robust HTTP client for making network requests with features like interceptors, global configuration, and form data handling.
+shared_preferences: Used for local data storage (e.g., saving user preferences, login status).
+User Interface Enhancements
+cached_network_image: Caches network images for faster load times and reduced data usage.
+carousel_slider_plus: Implements responsive and dynamic image/carousel sliders.
+readmore: Allows for expandable text in the UI, ideal for product descriptions or long content.
+Functional Programming
+dartz: Provides functional programming utilities like Option, Either, and Try for better error handling and code clarity.
+Other Utilities
+cupertino_icons: Provides iOS-style icons for consistency in cross-platform design.
+colornames: Makes it easy to use predefined named colors across the app.
+Development Tools
+flutter_lints: Ensures the code adheres to best practices and style guides.
+build_runner: Used for code generation in the project.
+injectable_generator: Generates code for automatic dependency injection with injectable.
+
 ## 🎥 Demo Video
 Watch the demo video to see the application in action:
 **[Demo Video Link](https://drive.google.com/file/d/1aYZwoT28KJmXuctEhBl1ZB0UJ8TN1fs0/view?usp=drive_link)**
