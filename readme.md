@@ -9,6 +9,24 @@
 
 ## 🚀 Introduction
 This project is a feature-rich e-commerce platform designed for seamless online shopping experiences. It includes user-friendly navigation, advanced product filtering, secure checkout, and a modern interface.
+
+## 🛠 Installation & Setup
+To run this project locally, follow these steps:
+
+### Prerequisites
+- Flutter SDK installed ([Get Flutter](https://flutter.dev/docs/get-started/install))
+- A code editor (e.g., VSCode or Android Studio)
+
+### Steps
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Mohammedhussein12/ecommerce.git
+   cd ecommerce
+2. Install dependencies:
+   flutter pub get
+3. Run the app:
+   flutter run
+
 ## 🖥️ Technical Stack
 
 This project utilizes the following technologies and packages to deliver a seamless e-commerce experience:
