@@ -9,7 +9,7 @@ This project is a feature-rich e-commerce platform designed for seamless online 
 ## 🎥 Demo Video
 
 Watch the demo video to see the application in action:  
-**[Demo Video Link]()**
+**[Demo Video Link](https://drive.google.com/file/d/1aYZwoT28KJmXuctEhBl1ZB0UJ8TN1fs0/view?usp=drive_link)**
 
 ---
 
