@@ -31,6 +31,22 @@ To run this project locally, follow these steps:
     ```bash
    flutter run
 
+## 🤝 Contribution Guide
+We welcome contributions from the community! To contribute:
+
+1. Fork the repository.
+2. Create a new branch for your feature:
+   ```bash
+   git checkout -b feature-name
+3. Make your changes and commit:
+   ```bash
+   git commit -m "Add a detailed commit message"
+4. Push the branch:
+   ```bash
+   git push origin feature-name
+   
+
+
 ## 🖥️ Technical Stack
 
 This project utilizes the following technologies and packages to deliver a seamless e-commerce experience:
