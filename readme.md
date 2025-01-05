@@ -3,10 +3,11 @@
 ## 📑 Table of Contents
 1. [🚀 Introduction](#-introduction)
 2. [🛠 Installation & Setup](#-installation--setup)
-3. [🎥 Demo Video](#-demo-video)
-4. [🛠 Features](#-features)
-5. [📷 Screenshots](#-screenshots)
-6. [👥 Contributors](#-contributors)
+3. [🤝 Contribution Guide](#-contribution-guide)
+4. [🎥 Demo Video](#-demo-video)
+5. [🛠 Features](#-features)
+6. [📷 Screenshots](#-screenshots)
+7. [👥 Contributors](#-contributors)
 
 ## 🚀 Introduction
 This project is a feature-rich e-commerce platform designed for seamless online shopping experiences. It includes user-friendly navigation, advanced product filtering, secure checkout, and a modern interface.
@@ -35,13 +36,14 @@ To run this project locally, follow these steps:
 We welcome contributions from the community! To contribute:
 
 1. Fork the repository.
+
 2. Create a new branch for your feature:
    ```bash
    git checkout -b feature-name
-3. Make your changes and commit:
+4. Make your changes and commit:
    ```bash
    git commit -m "Add a detailed commit message"
-4. Push the branch:
+5. Push the branch:
    ```bash
    git push origin feature-name
    
