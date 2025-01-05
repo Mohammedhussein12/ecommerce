@@ -23,8 +23,10 @@ To run this project locally, follow these steps:
    git clone https://github.com/Mohammedhussein12/ecommerce.git
    cd ecommerce
 2. Install dependencies:
+    ```bash
    flutter pub get
-3. Run the app:
+4. Run the app:
+    ```bash
    flutter run
 
 ## 🖥️ Technical Stack
