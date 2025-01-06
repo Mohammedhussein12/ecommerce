@@ -47,7 +47,7 @@ We welcome contributions from the community! To contribute:
    ```bash
    git push origin feature-name
 5. Open a Pull Request
-   
+
 
 
 ## 🖥️ Technical Stack
@@ -110,10 +110,10 @@ Watch the demo video to see the application in action:
 - Smart search functionality
 - Category-based browsing
 - Bottom navigation for quick access:
-  - Home
-  - Categories
-  - Wishlist
-  - Profile
+    - Home
+    - Categories
+    - Wishlist
+    - Profile
 
 ### 🛒 Shopping Cart
 - Easy add/remove items
