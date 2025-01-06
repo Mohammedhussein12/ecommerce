@@ -168,4 +168,4 @@ Watch the demo video to see the application in action:
 | ![Wishlist Screenshot](assets/screenshots/wishlist.png) | ![Cart Screenshot](assets/screenshots/cart.png) | |
 
 ## 👥 Contributors
-- **Mohammed Hussein** ([Mohammedhussein12](https://github.com/Mohammedhussein12/ecommerce.git))
+- **Mohammed Hussein** ([Mohammedhussein12](https://github.com/Mohammedhussein12))
