@@ -4,10 +4,11 @@
 1. [🚀 Introduction](#-introduction)
 2. [🛠 Installation & Setup](#-installation--setup)
 3. [🤝 Contribution Guide](#-contribution-guide)
-4. [🎥 Demo Video](#-demo-video)
-5. [🛠 Features](#-features)
-6. [📷 Screenshots](#-screenshots)
-7. [👥 Contributors](#-contributors)
+4. [🖥️ Technical Stack](#-technical-stack)
+5. [🎥 Demo Video](#-demo-video)
+6. [🛠 Features](#-features)
+7. [📷 Screenshots](#-screenshots)
+8. [👥 Contributors](#-contributors)
 
 ## 🚀 Introduction
 This project is a feature-rich e-commerce platform designed for seamless online shopping experiences. It includes user-friendly navigation, advanced product filtering, secure checkout, and a modern interface.
