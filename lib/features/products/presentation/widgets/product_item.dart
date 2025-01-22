@@ -3,23 +3,32 @@ import 'package:ecommerce/core/resources/color_manager.dart';
 import 'package:ecommerce/core/resources/styles_manager.dart';
 import 'package:ecommerce/core/routes/routes.dart';
 import 'package:ecommerce/core/widgets/heart_button.dart';
+import 'package:ecommerce/features/cart/presentation/cubit/cart_cubit.dart';
+import 'package:ecommerce/features/products/domain/entities/product.dart';
+import 'package:ecommerce/features/wishlist/presentation/cubit/wishlist_cubit.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class ProductItem extends StatelessWidget {
-  const ProductItem();
+  const ProductItem(this.product);
+
+  final Product product;
 
   @override
   Widget build(BuildContext context) {
     final Size screenSize = MediaQuery.sizeOf(context);
+    final wishlistCubit = context.read<WishListCubit>();
+    final isWishListed = wishlistCubit.products.any((p) => p.id == product.id);
 
     return InkWell(
       onTap: () => Navigator.of(context).pushNamed(
         Routes.productDetails,
+        arguments: product,
       ),
       child: Container(
-        width: screenSize.width * 0.4,
-        height: screenSize.height * 0.3,
+        width: screenSize.width * 0.5,
+        height: screenSize.height * 0.5,
         decoration: BoxDecoration(
           border: Border.all(
             color: ColorManager.primary.withOpacity(0.3),
@@ -36,11 +45,9 @@ class ProductItem extends StatelessWidget {
                 alignment: AlignmentDirectional.center,
                 children: [
                   ClipRRect(
-                    borderRadius:
-                        BorderRadius.vertical(top: Radius.circular(14.r)),
+                    borderRadius: BorderRadius.vertical(top: Radius.circular(14.r)),
                     child: CachedNetworkImage(
-                      imageUrl:
-                          'https://pl.kicksmaniac.com/zdjecia/2022/08/23/508/43/NIKE_AIR_JORDAN_1_RETRO_HIGH_GS_RARE_AIR_MAX_ORANGE-mini.jpg',
+                      imageUrl: product.imageCoverURL,
                       width: screenSize.width,
                       fit: BoxFit.cover,
                     ),
@@ -48,22 +55,29 @@ class ProductItem extends StatelessWidget {
                   PositionedDirectional(
                     top: screenSize.height * 0.01,
                     end: screenSize.width * 0.02,
-                    child: HeartButton(onTap: () {}),
+                    child: HeartButton(
+                      isFavorite: isWishListed,
+                      onTap: () {
+                        if (isWishListed) {
+                          wishlistCubit.removeProductFromWishList(productId: product.id);
+                        } else {
+                          wishlistCubit.addProductToWishList(productId: product.id);
+                        }
+                      },
+                    ),
                   ),
                 ],
               ),
             ),
             Expanded(
-              flex: 5,
+              flex: 11,
               child: Padding(
-                padding: const EdgeInsets.all(4),
+                padding: EdgeInsets.all(4.sp),
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
-                      _truncateTitle(
-                        'Nike Air Jordon Nike shoes flexible for wo..',
-                      ),
+                      _truncateTitle(product.title),
                       style: getMediumStyle(
                         color: ColorManager.text,
                         fontSize: 14.sp,
@@ -71,9 +85,7 @@ class ProductItem extends StatelessWidget {
                     ),
                     SizedBox(height: screenSize.height * 0.002),
                     Text(
-                      _truncateDescription(
-                        'Nike is a multinational corporation that designs, develops, and sells athletic footwear ,apparel, and accessories.',
-                      ),
+                      _truncateDescription(product.description),
                       style: getRegularStyle(
                         color: ColorManager.text,
                         fontSize: 14.sp,
@@ -86,15 +98,18 @@ class ProductItem extends StatelessWidget {
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           Text(
-                            'EGP 399',
+                            'EGP ${product.priceAfterDiscount ?? product.price}',
                             style: getRegularStyle(
                               color: ColorManager.text,
                               fontSize: 14.sp,
                             ),
                           ),
-                          Text(
-                            '499',
-                            style: getTextWithLine(),
+                          Visibility(
+                            visible: product.priceAfterDiscount != null,
+                            child: Text(
+                              '${product.price}',
+                              style: getTextWithLine(),
+                            ),
                           ),
                         ],
                       ),
@@ -107,7 +122,7 @@ class ProductItem extends StatelessWidget {
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
                               Text(
-                                'Review (4.8)',
+                                'Review (${product.ratingsAverage})',
                                 style: getRegularStyle(
                                   color: ColorManager.text,
                                   fontSize: 12.sp,
@@ -122,11 +137,13 @@ class ProductItem extends StatelessWidget {
                         ),
                         const Spacer(),
                         ClipRRect(
-                          borderRadius: BorderRadius.circular(100),
+                          borderRadius: BorderRadius.circular(100.r),
                           child: InkWell(
-                            onTap: () {},
+                            onTap: () {
+                              context.read<CartCubit>().addToCart(product.id);
+                            },
                             child: Container(
-                              height: screenSize.height * 0.025,
+                              height: screenSize.height * 0.033,
                               width: screenSize.width * 0.08,
                               decoration: const BoxDecoration(
                                 shape: BoxShape.circle,
