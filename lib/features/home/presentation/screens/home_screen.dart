@@ -32,9 +32,7 @@ class _HomeScreenState extends State<HomeScreen> {
               topEnd: Radius.circular(15),
             ),
             child: SizedBox(
-              height: MediaQuery
-                  .sizeOf(context)
-                  .height * 0.1,
+              height: MediaQuery.sizeOf(context).height * 0.15,
               child: BottomNavigationBar(
                 currentIndex: homeCubit.currentIndex,
                 onTap: (value) => homeCubit.changeSelectedIndex(value),
@@ -65,19 +63,19 @@ class CustomBottomNavBarItem extends BottomNavigationBarItem {
 
   CustomBottomNavBarItem(this.iconPath, this.title)
       : super(
-    label: title,
-    icon: ImageIcon(
-      AssetImage(iconPath),
-      color: ColorManager.white,
-    ),
-    activeIcon: CircleAvatar(
-      radius: 12,
-      backgroundColor: ColorManager.white,
-      child: ImageIcon(
-        AssetImage(iconPath),
-        color: ColorManager.primary,
-        size: 14,
-      ),
-    ),
-  );
+          label: title,
+          icon: ImageIcon(
+            AssetImage(iconPath),
+            color: ColorManager.white,
+          ),
+          activeIcon: CircleAvatar(
+            radius: 12,
+            backgroundColor: ColorManager.white,
+            child: ImageIcon(
+              AssetImage(iconPath),
+              color: ColorManager.primary,
+              size: 14,
+            ),
+          ),
+        );
 }
